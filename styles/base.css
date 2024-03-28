@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+:root {
+    /* Primary */
+    --very-dark-blue: rgb(9, 11, 26);
+    --dark-desaturated-blue: rgb(27, 25, 56);
+    --soft-violet: rgb(170, 92, 219);
+
+    /* Neutral */
+    --white: #ffffff;
+    --slightly-transparent-white1: rgba(255, 255, 255, 0.75);
+    --slightly-transparent-white2: rgba(255, 255, 255, 0.6);
+
+    /* Fonts */
+    --inter: "Inter", sans-serif;
+    --lexend-deca: "Lexend Deca", sans-serif;
+
+    /* Border */
+    --radius-value: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--very-dark-blue);
+}
+
+footer {
+    padding: 0.5rem;
+    font-family: var(--inter);
+    width: 85vw;
+    text-align: center;
+    color: var(--white);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--soft-violet);
+}
