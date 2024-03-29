@@ -29,7 +29,7 @@ body {
 }
 
 footer {
-    padding: 0.5rem;
+    padding: 1rem;
     font-family: var(--inter);
     width: 85vw;
     text-align: center;
